@@ -1,0 +1,14 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cegepreprod\.fr\,cegepreprodfr_boba6866\.odns\.fr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cegepreprod\.fr\,cegepreprodfr_boba6866\.odns\.fr$
+RewriteRule ^/?$ "https\:\/\/cegepreprod\.fr\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^portfoliopeterson\.fr\,portfoliopetersonfr_boba6866\.odns\.fr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.portfoliopeterson\.fr\,portfoliopetersonfr_boba6866\.odns\.fr$
+RewriteRule ^/?$ "https\:\/\/authentique\-meaux\.fr\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^wevening\-preprod\.com\,wevening\-preprodcom_boba6866\.odns\.fr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.wevening\-preprod\.com\,wevening\-preprodcom_boba6866\.odns\.fr$
+RewriteRule ^/?$ "https\:\/\/wevening\-preprod\.com\/evenie\/public" [R=301,L]
+RewriteCond %{HTTP_HOST} ^preprodparten\.fr\,preprodpartenfr_boba6866\.odns\.fr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.preprodparten\.fr\,preprodpartenfr_boba6866\.odns\.fr$
+RewriteRule ^/?$ "https\:\/\/preprodparten\.fr\/" [R=301,L]
