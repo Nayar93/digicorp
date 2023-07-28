@@ -858,7 +858,7 @@ header .menu-btn {
 .slick-prev,
 .slick-next {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 23px;
 }
 .slick-prev:before,
@@ -1633,7 +1633,7 @@ footer {
     font-size: 28px;
     line-height: 130%;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #bc8d02;
     margin-bottom: 21px;
 }
 .text-bz > p {
@@ -1652,9 +1652,9 @@ footer {
 .oct-abt-row:last-child {
     margin-bottom: 0;
 }
-.pl-100 {
+/* .pl-100 {
     padding-left: 100px;
-}
+} */
 .pr-100 {
     padding-right: 100px;
 }
@@ -3090,6 +3090,31 @@ body {
     /* for aspect ratio ~1:10 */
     padding-top: 10%;
   }
+
+  .e-sport{
+    display: flex;
+    gap: 34px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 250px;
+  }
+
+  .iphone_img{
+    display: flex;
+    flex-direction: column;
+}
+
+  .iphone{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 650px;
+    color: rgb(183, 121, 6);
+    text-align: center;
+    cursor: pointer;
+  }
+
   
   
   /* Screenshot Hover Scroll Additions

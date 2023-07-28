@@ -186,7 +186,7 @@
 @media (max-width: 991px) {
     .responsive-flex-direction {
         flex-direction: column;
-    }
+    }z
     .responsive-img-2 + .main-banner-text {
         margin: 0 50px;
     }
@@ -414,13 +414,24 @@
     }
 }
 
+
 @media (min-width: 720px) {
     .responsive-img-2 {
         max-width: 600px;
         margin: 0px 50px;
     }
 
+    .e_sport{
+        width: 100%;
+        flex-wrap: wrap ;
+    }
 
+    .iphone{
+        display: flex;
+        gap: 30%;
+        width: 25%;
+        border-radius: 2px 2px 2px 65px;
+    }
 
     .services-table tr {
         border-top-style: solid;
@@ -438,6 +449,7 @@
         font-weight: 20px;
     }
 }
+
 
 @media (max-width: 768px) {
 
